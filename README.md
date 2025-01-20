@@ -1,6 +1,6 @@
 # WebGL Game
 
-This repository contains a WebGL game powered by a Node.js server. Follow the instructions below to set up and run the game locally.
+This repository contains a WebGL game powered by a Node.js server. The game assets are compressed using Gzip for optimized performance. Follow the instructions below to set up and run the game locally.
 
 ## Prerequisites
 
@@ -47,7 +47,8 @@ Ensure you have the following installed on your system:
 
 - Ensure the port used in `server.js` is not already in use. If needed, change the port in the script and restart the server.
 - If the game doesn't load, check the browser console for errors, if an issue appears, create issue.
-
+- Verify that your server correctly serves Gzipped files, the server sets Content-Encoding headers for gzip files.
+- 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

@@ -1,0 +1,12 @@
+{
+  "name": "_build",
+  "version": "1.0.0",
+  "description": "This project is an implementation of a webgl game, uses node.js web http-server to run the game locally.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
